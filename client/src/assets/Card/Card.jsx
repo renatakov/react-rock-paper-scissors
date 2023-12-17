@@ -1,12 +1,12 @@
 import s from "./Card.module.css"
-const HomePage = () => {
+const Card = () => {
 return(
     <>
     <div className="card">
-        
+
     </div>
     </>
 )
 }
 
-export default HomePage
+export default Card
