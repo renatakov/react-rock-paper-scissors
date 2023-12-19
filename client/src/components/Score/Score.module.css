@@ -12,6 +12,7 @@
 
 .score h1{
     flex: 0 1 20%;
+    text-transform: uppercase;
 }
 
 .scoreBlock{
@@ -28,10 +29,13 @@
 .scoreBlock span:first-child{
     color: hsl(214, 73%, 33%);
     font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
 }
 
 .scoreBlock span:last-child{
 color: black;
 font-size: 3rem;
-
+text-transform: uppercase;
 }

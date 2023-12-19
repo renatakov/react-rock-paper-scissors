@@ -1,12 +1,14 @@
 import s from "./Card.module.css"
-const Card = () => {
-return(
-    <>
-    <div className="card">
+const Card = (props) => {
+    console.log(props)
+    return (
+        <>
+                <div style={props.style} className={s.wrapper}>
 
-    </div>
-    </>
-)
+                    <img src={props.img} alt="" />
+                    </div>
+        </>
+    )
 }
 
 export default Card

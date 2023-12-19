@@ -7,7 +7,7 @@ const Score = () => {
             <h1>Rock Paper Scissors</h1>
             <div className={s.scoreBlock}>
                 <span>Score</span>
-                <span>12</span>
+                <span>0</span>
             </div>
         </header>
         </>
