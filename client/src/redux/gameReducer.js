@@ -39,16 +39,16 @@ export const gameReducer = createReducer(initialState, (builder) => {
             state.computerChoice = state.choices[randomIndex].name
             let playersObj = state.choices.find(item=>item.name === state.playersChoice)
             state.playersObj = playersObj;
-            if(state.computerChoice === state.playersObj.victory){
-                state.gameStatus = "Computer won!"
-            }
-            if(state.computerChoice === state.playersObj.defeat){
-                state.gameStatus = "Player won!";
-                state.playersScore++;
-            }
-            if(state.computerChoice === state.playersObj.draw){
-                state.gameStatus = "It's a Draw!";
-            }
+                if(state.computerChoice === state.playersObj.victory){
+                    state.gameStatus = "Computer won!"
+                }
+                if(state.computerChoice === state.playersObj.defeat){
+                    state.gameStatus = "Player won!";
+                    state.playersScore++;
+                }
+                if(state.computerChoice === state.playersObj.draw){
+                    state.gameStatus = "It's a Draw!";
+                }
         }
     })
 })
