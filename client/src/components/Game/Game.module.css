@@ -2,4 +2,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--main-color);
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.game h3{
+    text-align: center;
+}
+
+.gameBlock h3{
+    margin-top: 0.6rem;
+}
+
+.gameBlocks{
+    display: flex;
+    align-items: center;
+}
+
+
+.gameStatus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameStatus button{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 3rem;
+}
+
+.gameStatus button:hover{
+    color: rgb(207, 23, 23);
+}
+
+
+
+
+@media (max-width: 425px) {
+    .gameStatus{
+        order: 3;
+    }
+    .gameStatus h3{
+        font-size: 2rem;
+    }
+    .gameStatus button{
+        font-size: 2rem;
+    }
+    .gameBlocks{
+        flex-direction: column;
+    }
 }

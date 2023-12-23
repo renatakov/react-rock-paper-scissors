@@ -46,13 +46,16 @@ main {
     
 }
 
-@media (max-width: 376px) {
+@media (min-width: 375px) and (max-width: 540px) {
     html {
         font-size: 12px;
     }
-
+    main{
+        padding: 0;
+    }
     .menu {
         background: url("../../images/bg-triangle.svg") no-repeat center;
-        background-size: 70%;
+        background-size: 60%;
+        
     }
 }

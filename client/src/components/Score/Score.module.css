@@ -6,7 +6,7 @@
     outline: 3px solid var(--gray-color);
     color: var(--main-color);
     border-radius: 10px;
-    padding: inherit;
+    padding: 0.7rem;
     width: clamp(200px, 70%, 600px);
 }
 
