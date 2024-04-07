@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-rock-paper-scissors/static/css/main.71fddd97.css",
-    "main.js": "/react-rock-paper-scissors/static/js/main.c2702cfe.js",
+    "main.js": "/react-rock-paper-scissors/static/js/main.962d9b11.js",
     "static/js/787.d5fa4d18.chunk.js": "/react-rock-paper-scissors/static/js/787.d5fa4d18.chunk.js",
     "static/media/image-rules.svg": "/react-rock-paper-scissors/static/media/image-rules.258b753fb6284dc8ae00c5b2fa7938c0.svg",
     "static/media/icon-paper.svg": "/react-rock-paper-scissors/static/media/icon-paper.8b57a6b108c1b8ae82931a39b10f96a2.svg",
@@ -10,11 +10,11 @@
     "static/media/icon-rock.svg": "/react-rock-paper-scissors/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
     "static/media/bg-triangle.svg": "/react-rock-paper-scissors/static/media/bg-triangle.77c6ca418d3751d8f717.svg",
     "main.71fddd97.css.map": "/react-rock-paper-scissors/static/css/main.71fddd97.css.map",
-    "main.c2702cfe.js.map": "/react-rock-paper-scissors/static/js/main.c2702cfe.js.map",
+    "main.962d9b11.js.map": "/react-rock-paper-scissors/static/js/main.962d9b11.js.map",
     "787.d5fa4d18.chunk.js.map": "/react-rock-paper-scissors/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71fddd97.css",
-    "static/js/main.c2702cfe.js"
+    "static/js/main.962d9b11.js"
   ]
 }
