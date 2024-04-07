@@ -13,24 +13,18 @@ const Game = () => {
                         <h3>YOU PICKED</h3>
                         <Card name={state.playersChoice} />
                     </div>
-                    {state.gameStatus === "Computer won!" && (
-                        <div className={s.gameStatus}>
+                    <div className={s.gameStatus}>
+                        {state.gameStatus === "Computer won!" && (
                             <h3>YOU LOSE</h3>
-                            <button onClick={() => { dispatch(restart()) }}>PLAY AGAIN</button>
-                        </div>
-                    )}
-                    {state.gameStatus === "Player won!" && (
-                        <div className={s.gameStatus}>
+                        )}
+                        {state.gameStatus === "Player won!" && (
                             <h3>YOU WON</h3>
-                            <button onClick={() => { dispatch(restart()) }}>PLAY AGAIN</button>
-                        </div>
-                    )}
-                    {state.gameStatus === "It's a Draw!" && (
-                        <div className={s.gameStatus}>
+                        )}
+                        {state.gameStatus === "It's a Draw!" && (
                             <h3>DRAW</h3>
-                            <button onClick={() => { dispatch(restart()) }}>PLAY AGAIN</button>
-                        </div>
-                    )}
+                        )}
+                        <button onClick={() => { dispatch(restart()) }}>PLAY AGAIN</button>
+                    </div>
                     <div className={s.gameBlock}>
                         <h3>THE HOUSE PICKED</h3>
                         <Card name={state.computerChoice} />
